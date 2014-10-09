@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Official Cassandra Sarfo Website</title>
 
     <!-- Bootstrap -->
 
@@ -22,36 +22,71 @@
     <![endif]-->
   </head>
   <body>
-        <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Logo</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Aboutme">About Me</a></li>
-            <li><a href="#Family">Family</a></li>
-            <li><a href="#Hobbies">Hobbies</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
 
-<div class="jumbotron jmb-color">
+      <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo.png">
+
+
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#Aboutme">About Me</a></li>
+                  <li><a href="#Family">Family</a></li>
+                  <li><a href="#Hobbies">Hobbies</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+<div class="intro-header">
+  <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                      <div class="text-center">
+                        <img src="img/cassie.jpg" class="img-circle">
+
+                      </div>
+                        <h1> Cassandra Sarfo</h1>
+                        <!-- <h3>events | media | production</h3> -->
+                        <hr class="intro-divider">
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+</div> 
+
+
+<!-- <div class="jumbotron jmb-color">
   <div class="row">
     <div class="col-xs-4 col-xs-offset-1 col-sm-6 col-sm-offset-5 img-top-pad">
       <img src="images/image-me.jpg" class="img-circle" width="200" height="200" style="margin: 20px 0 0 0;">
       <h2 >Cassandra Sarfo</h2>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- <div class="row jmb-color">
   <div class="col-sm-6 col-sm-offset-5">
@@ -64,8 +99,8 @@
 <section id="Aboutme">
 <div class="container">
   <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
-      <h1 style="text-align:center;">Welcome to My Profile</h1>
+    <div class="">
+      <h1 class="text-center">About me</h1>
       <hr>
     </div>
   </div>
@@ -73,15 +108,15 @@
   <div class="row main-top" >
     <div class="col-sm-5" >
       <div class="row">
-        <div class="col-sm-9 col-sm-offset-2">
-          <img class="image-one img-thumbnail"  src="images/image-cassy.jpg">
+        <div class="col-sm-12 col-sm-offset-1">
+          <img class="image-one img-thumbnail img-responsive"  src="img/image-cassy.jpg">
         </div>
       </div>
       <div class="row">
         <div class="col-sm-11 col-sm-offset-1">
-          <p>Cassandra is an IT graduate from the University of Cape Coast who dreads swimming but loves computers and the world of internet. </p>
+          <p class="lead">Cassandra is an IT graduate from the University of Cape Coast who dreads swimming but loves computers and the world of internet. </p>
 
-          <p>In the past I have interned with Esoko, an IT company dedicated to providing better services to farmers in rural areas.</p>
+          <p class="lead">She has the passion of being a globally successful entrepreneur, so that she can solve the world's problem with technology.</p>
 
    <!--        <p>I am fun-loving and cherish family and friends</p> -->
           </div>
@@ -95,12 +130,13 @@
     <div class="col-sm-5">
       <div class="row edu-work-sec">
         <h2><i class="fa fa-university"></i> Educational Background </h2>
-        <h4> Meltwater Entrepreneurial School of Technology </h4>
+        <h4> <small>CURRENT</small> <br>Meltwater Entrepreneurial School of Technology </h4>
         <p class="p-pad"> Post-Graduate Course in Software Development </p>
-        <h4> University of Cape Coast </h4>
+
+        <h4><small>PAST</small> <br> University of Cape Coast </h4>
         <p class="p-pad"> BSc. Information Technology </p>
       </div>
-      <div class="row">
+      <div class="row edu-work-sec work">
         <h2><i class="fa fa-suitcase"></i> Work Experience </h2>
         <h4> Esoko, Accra </h4>
         <p class="p-pad"> Web developer </p>
@@ -113,33 +149,41 @@
 </section>
 
 <section id="Family">
+ 
   <div class="jumbotron main-middle">
+ <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-4">
-          <h1 style="text-align:center;">My Family</h1>
-          <hr>
-          <p style="text-align:center; margin-bottom:30px;">These people are very important to me</p>
+      <div class="row">
+      <h2 class="text-center"><i class="fa fa-quote-left "></i>
+            Family is not an important thing, It's everything  <br> - <small> Michael J Fox <small> </h2>
+       </div>
+           <hr>
+
+
+        <div class="row">
+          <h2 class="text-center"><small>These people are everything to me</small> </h2>      
         </div>
       </div>
-     <div class="row fam-pic-sec">
-      <div class="col-sm-11 col-sm-offset-1">
-        <div class="col-sm-4">
-          <img src="images/image-mum.jpg" width="200" height="200" class="img-circle">
-          <h4 class="fm-name-style">Mrs. Theresah Ayanful</h4>
-          <p class="fm-type-style">Mum</p>
+     <div class="row text-center">
+    
+        <div class="col-sm-4 familyDetails">
+          <img src="img/mum.jpg" class="img-circle">
+          <h4 class="">Mrs. Theresah Ayanful</h4>
+          <p class="">Mum</p>
         </div>
-        <div class="col-sm-4">
-          <img src="images/image-dad.JPG" width="200" height="200" class="img-circle">
-          <h4 class="fm-name-style"> Mr. Nathaniel Ayanful</h4>
-          <p class="fm-type-style">Dad</p>
+        <div class="col-sm-4 familyDetails">
+          <img src="img/dad.jpg" class="img-circle">
+          <h4 class=""> Mr. Nathaniel Ayanful</h4>
+          <p class="">Dad</p>
         </div>
-        <div class="col-sm-4">
-          <img src="images/image-sis.JPG" width="200" height="200" class="img-circle">
-          <h4 class="fm-name-style"> Ewurasi Nyarkoa Ayanful</h4>
-          <p class="fm-type-style">Lil Sis</p>
+        <div class="col-sm-4 familyDetails">
+          <img src="img/sist.jpg"  class="img-circle">
+          <h4 class=""> Ewurasi Nyarkoa Ayanful</h4>
+          <p class="">Lil Sis</p>
         </div>
-      </div>
+     
      </div>
+  </div>
   </div>
 </section>
 
@@ -152,44 +196,79 @@
         <p style="text-align:center; margin-bottom:30px; font-size:20px;">Check out what I love to do during my leisure period.</p>
     </div>
   </div>
-  <div class="row hobby-type">
+  <div class="row hobby-type text-center">
     <div class="col-sm-3">
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-3">
-          <img src="images/ping2.png">
+    
+        <div class="">
+          <img src="img/ping2.png">
         </div>
-      </div>
-      <p class="hobby-type-1-n-3">Playing Table Tennis</p>
+      
+      <p class="">Playing Table Tennis</p>
     </div>
 
     <div class="col-sm-3">
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-3">
-          <img src="images/dancer.png">
+    
+        <div class="">
+          <img src="img/dancer.png">
         </div>
-      </div>
-      <p class="hobby-type-2-n-4">Learning &amp; Teaching New Dance</p>
+      
+      <p class="">Learning &amp; Teaching New Dance</p>
     </div>
 
     <div class="col-sm-3">
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-3">
-          <img src="images/musical81.png">
+      
+        <div class="">
+          <img src="img/musical81.png">
         </div>
-      </div>
-      <p class="hobby-type-1-n-3">Listening to Music</p>
+      
+      <p class="">Listening to Music</p>
     </div>
 
     <div class="col-sm-3">
-      <div class="row">
-        <div class="col-xs-4 col-xs-offset-3 col-sm-4 col-sm-offset-3">
-          <img src="images/html-tag.png">
+   
+        <div class="">
+          <img src="img/html-tag.png">
         </div> 
-      </div>
-      <p class="hobby-type-2-n-4">Coding to Enhance my Skills</p>
+    
+      <p class="">Coding to Enhance my Skills</p>
     </div>
   </div>
 </div>  
+</section>
+
+<section id="contact">
+ 
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <h2>Connect with me:</h2>
+                </div>
+                <div class="col-lg-9">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/@cassiesarfo" target="_blank" class="btn btn-default btn-lg btn-social btn-twitter"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                         <li>
+                            <a href="https://www.linkedin.com/profile/view?id=339357102&trk=nav_responsive_tab_profile" target="_blank" class="btn btn-default btn-lg btn-social btn-linkedin"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://www.facebook.com/akosua.kessewaa.5" target="_blank" class="btn btn-default btn-lg btn-social btn-facebook"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
 </section>
 
 <footer>
@@ -198,9 +277,22 @@
     </div>
 </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+        $('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 700);
+            return false;
+        });
+
+    </script>
   </body>
 </html>
